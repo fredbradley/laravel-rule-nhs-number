@@ -1,6 +1,6 @@
 # Laravel Rule NHS Number Validator
 
-This is a Custom Laravel Rule for validating an NHS Number. 
+This is a [Custom Laravel Rule](https://laravel.com/docs/5.8/validation#using-rule-objects) for validating an NHS Number. 
 
 The NHS Number validation logic is written by [Liam](https://github.com/imliam/php-nhs-number) and found in a [separate package](https://github.com/imliam/php-nhs-number), if you'd like to use it without Laravel's dependencies.
 
