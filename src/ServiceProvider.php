@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FredBradley\NhsValidator;
+namespace FredBradley\NhsNumber;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -15,7 +15,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
-        Validator::extend('nhsnumber', new NhsNumberRule());
+        Validator::extend('nhsnumber', new ValidateNhsNumber());
     }
 
     /**

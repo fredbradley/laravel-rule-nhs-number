@@ -1,6 +1,6 @@
 <?php
 
-namespace FredBradley\NhsValidator;
+namespace FredBradley\NhsNumber;
 
 use Illuminate\Contracts\Validation\Rule;
 use ImLiam\NhsNumber\InvalidNhsNumberException;
@@ -9,7 +9,7 @@ use ImLiam\NhsNumber\NhsNumber;
 /**
  * Class ValidNhsNumber.
  */
-class NhsNumberRule implements Rule
+class ValidateNhsNumber implements Rule
 {
     /**
      * @var string
