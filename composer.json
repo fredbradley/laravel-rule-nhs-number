@@ -1,27 +1,29 @@
 {
-    "name": "fredbradley/laravel-rule-nhs-number",
-    "description": "A Laravel 5/6 Validator Rule for checking the validity of a NHS Number",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Fred Bradley",
-            "email": "code@fredbradley.co.uk"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "FredBradley\\NhsValidator\\": "src/"
-        }
-    },
-    "require": {
-        "imliam/php-nhs-number": "^1.1"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "FredBradley\\NhsValidator\\ServiceProvider"
-            ]
-        }
+  "name": "fredbradley/laravel-rule-nhs-number",
+  "description": "A Laravel 5/6 Validator Rule for checking the validity of a NHS Number",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fred Bradley",
+      "email": "code@fredbradley.co.uk"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FredBradley\\NhsValidator\\": "src/"
+    }
+  },
+  "require": {
+    "imliam/php-nhs-number": "^1.1",
+    "php": ">=7.2",
+    "illuminate/support": "^5.5||^6.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FredBradley\\NhsValidator\\ServiceProvider"
+      ]
+    }
+  }
 }
