@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "FredBradley\\NhsValidator\\ServiceProvider"
+        "FredBradley\\NhsNumber\\ServiceProvider"
       ]
     }
   }
