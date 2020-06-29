@@ -106,7 +106,7 @@ class ExampleTest extends TestCase
     {
         $number = new NhsNumber('9077844449');
 
-        $this->assertEquals('907 784 4449', (string)$number);
+        $this->assertEquals('907 784 4449', (string) $number);
     }
 
     /** @test */
@@ -121,7 +121,7 @@ class ExampleTest extends TestCase
     public function not_enough_characters()
     {
         $this->expectException(InvalidNhsNumberException::class);
-        $this->expectExceptionMessage("An NHS number must be numeric and 10 characters long.");
+        $this->expectExceptionMessage('An NHS number must be numeric and 10 characters long.');
         $testVar = 123456789;
         $nhsNumber = new NhsNumber($testVar);
         $nhsNumber->validate();
