@@ -5,8 +5,7 @@ namespace FredBradley\NhsNumber;
 use ImLiam\NhsNumber\NhsNumber;
 
 /**
- * Class Generator
- * @package FredBradley\NhsNumber
+ * Class Generator.
  */
 class Generator
 {
