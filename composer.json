@@ -1,6 +1,6 @@
 {
     "name": "fredbradley/laravel-rule-nhs-number",
-    "description": "A Laravel 5/6 Validator Rule for checking the validity of a NHS Number",
+    "description": "A Laravel Validator Rule for checking the validity of a NHS Number",
     "type": "library",
     "license": "MIT",
     "authors": [
