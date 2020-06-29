@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/fredbradley/laravel-rule-nhs-number.svg?style=flat-square)](https://packagist.org/packages/fredbradley/laravel-rule-nhs-number)
 [![Build Status](https://img.shields.io/travis/fredbradley/laravel-rule-nhs-number/master.svg?style=flat-square)](https://travis-ci.org/fredbradley/laravel-rule-nhs-number)
-![StyleCI Status](https://github.styleci.io/repos/274918928/shield)
+![StyleCI Status](https://github.styleci.io/repos/241368220/shield)
 [![Total Downloads](https://img.shields.io/packagist/dt/fredbradley/laravel-rule-nhs-number.svg?style=flat-square)](https://packagist.org/packages/fredbradley/laravel-rule-nhs-number)
 
 This is a [Custom Laravel Rule](https://laravel.com/docs/5.8/validation#using-rule-objects) for validating an NHS Number. 
