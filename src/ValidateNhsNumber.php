@@ -38,6 +38,7 @@ class ValidateNhsNumber implements Rule
         try {
             $nhsNumber = new NhsNumber($value);
             $nhsNumber->validate(); // Will throw exception here if false
+
             return true;
         } catch (InvalidNhsNumberException $e) {
             if ($e->getMessage() === 'The NHS number\'s check digit does not match.') {
@@ -48,17 +49,6 @@ class ValidateNhsNumber implements Rule
 
             return false;
         }
-    }
-
-    /**
-     * @param $attribute
-     * @param $value
-     * @param $params
-     * @return bool
-     */
-    public function validate($attribute, $value, $params): bool
-    {
-        return $this->passes($attribute, $value);
     }
 
     /**
