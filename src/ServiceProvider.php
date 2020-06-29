@@ -1,6 +1,5 @@
 <?php
 
-
 namespace FredBradley\NhsNumber;
 
 use Illuminate\Support\Facades\Validator;
