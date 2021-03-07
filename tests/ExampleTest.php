@@ -61,7 +61,7 @@ class ExampleTest extends TestCase
     /** @test */
     public function a_list_of_random_valid_nhs_numbers_can_be_generated()
     {
-        $numbers = \FredBradley\NhsNumber\Generator::nhsNumbers(3);
+        $numbers = Generator::nhsNumbers(3);
 
         $this->assertCount(3, $numbers);
 
