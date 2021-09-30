@@ -21,7 +21,7 @@
     },
     "require": {
         "php": "^7.4||^8.0",
-        "fredbradley/php-nhs-number": "dev-master"
+        "fredbradley/php-nhs-number": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~9",
@@ -39,12 +39,6 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "repositories": {
-        "fredbradley/php-nhs-number": {
-            "type": "vcs",
-            "url": "git@github.com:fredbradley/php-nhs-number.git"
-        }
     },
     "extra": {
         "laravel": {
