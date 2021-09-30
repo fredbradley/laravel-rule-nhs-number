@@ -12,7 +12,7 @@ class Generator
     /**
      * Generate a single random NHS number.
      *
-     * @param bool $unique
+     * @param  bool  $unique
      * @return string
      */
     public static function nhsNumber(): string
@@ -23,8 +23,8 @@ class Generator
     /**
      * Generate a list of random NHS numbers.
      *
-     * @param int $count
-     * @param bool $unique
+     * @param  int  $count
+     * @param  bool  $unique
      * @return array
      */
     public static function nhsNumbers(int $count, bool $unique = true): array
